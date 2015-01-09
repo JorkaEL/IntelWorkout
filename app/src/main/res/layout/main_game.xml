@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
-    <com.intelworkout.intelworkout
+    <com.intelworkout.intelworkout.IntelWorkOutView
         android:id="@+id/IntelWorkOutView"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
