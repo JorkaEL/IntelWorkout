@@ -1,12 +1,22 @@
 package com.intelworkout.intelworkout;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
 public class MenuActivity extends Activity {
+
+    public boolean testStateSound = false;
+    public MediaPlayer monMedPlayer;
+    Intent intentVar;
+    final Context context = this;
+    private MatricesDataSource database= null;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
