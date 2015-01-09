@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">IntelWorkout</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+
+    <string name="app_name">IntelWorkOut</string>
+    <string name="boutonJeuStart">JOUER</string>
+    <string name="bouttonQuitter">QUITTER</string>
+    <string name="bouttonSonOn">Son : ON</string>
+    <string name="bouttonScores">Scores</string>
+    <string name="bouttonSonOff">Son : OFF</string>
+    <string name="btnMenuHelp">HELP</string>
+    <string name="btnMenuAPropos">A propos</string>
+    <string name="TitreBtnAPropos">A propos :</string>
+    <string name="TitreBtnHelps">Help</string>
+    <string name="txtViewPseudo">Pseudo</string>
+    <string name="txtViewTime">Erreur Temps</string>
+    <string name="txtButtonValider">Valider</string>
+    <string name="txtButtonAnnuler">Annuler</string>
+    <string name="MAT1">Modèle 1</string>
+    <string name="MAT2">Modèle 2</string>
+    <string name="MATE3">Modèle 3</string>
 
 </resources>
