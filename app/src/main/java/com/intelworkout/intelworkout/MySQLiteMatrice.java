@@ -2,12 +2,13 @@ package com.intelworkout.intelworkout;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 /**
  * Created by xavier on 09/01/15.
  */
-public class MySQLiteMatrice {
+public class MySQLiteMatrice extends SQLiteOpenHelper {
 
     // SQL BDD
     static final String DATABASE_NAME = "bddIntellWork.db";
