@@ -27,15 +27,11 @@
             android:name=".IntelWorkOutActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
-            <intent-filter>
-            </intent-filter>
         </activity>
         <activity
             android:name=".ActivityDatasPlayer"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
-            <intent-filter>
-            </intent-filter>
         </activity>
     </application>
 
