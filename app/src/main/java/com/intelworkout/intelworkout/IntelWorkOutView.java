@@ -20,6 +20,7 @@ import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.Random;
@@ -789,8 +790,8 @@ public class IntelWorkOutView extends SurfaceView implements View.OnClickListene
 
         TextView txtViewQts = new TextView(intelWorkcontext);
 
-        txtViewQts.setLayoutParams(new LayoutParams(LayoutParams.FILL_PARENT,
-                LayoutParams.FILL_PARENT));
+        txtViewQts.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT,
+                ViewGroup.LayoutParams.FILL_PARENT));
         txtViewQts.setPadding(20, 10, 20, 10);
         txtViewQts.setTextSize(20);
         txtViewQts

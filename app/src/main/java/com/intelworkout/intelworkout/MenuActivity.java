@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -125,8 +126,8 @@ public class MenuActivity extends Activity {
 
         TextView txtViewQts = new TextView(context);
 
-        txtViewQts.setLayoutParams(new LayoutParams(LayoutParams.FILL_PARENT,
-                LayoutParams.FILL_PARENT));
+        txtViewQts.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT,
+                ViewGroup.LayoutParams.FILL_PARENT));
         txtViewQts.setPadding(20, 10, 20, 10);
         txtViewQts.setTextSize(20);
         txtViewQts.setTextColor(Color.WHITE);
@@ -208,8 +209,8 @@ public class MenuActivity extends Activity {
 
         TextView txtViewQts = new TextView(context);
 
-        txtViewQts.setLayoutParams(new LayoutParams(LayoutParams.FILL_PARENT,
-                LayoutParams.FILL_PARENT));
+        txtViewQts.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT,
+                ViewGroup.LayoutParams.FILL_PARENT));
         txtViewQts.setPadding(20, 10, 20, 10);
         txtViewQts.setTextColor(Color.WHITE);
         txtViewQts.setTextSize(20);
@@ -255,8 +256,8 @@ public class MenuActivity extends Activity {
 
         TextView txtViewQts = new TextView(context);
 
-        txtViewQts.setLayoutParams(new LayoutParams(LayoutParams.FILL_PARENT,
-                LayoutParams.FILL_PARENT));
+        txtViewQts.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT,
+                ViewGroup.LayoutParams.FILL_PARENT));
         txtViewQts.setPadding(20, 10, 20, 10);
         txtViewQts.setTextSize(20);
         txtViewQts.setTextColor(Color.WHITE);
