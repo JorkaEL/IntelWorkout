@@ -42,7 +42,7 @@ public class IntelWorkOutActivity extends Activity {
         super.onPause();
         workout.saveGame();
         workout.setThread(false);
-        Log.i("Test", "bouton menu");
+        Log.i("-> FCT <-", "onPause");
     }
 
     @Override
@@ -50,11 +50,23 @@ public class IntelWorkOutActivity extends Activity {
         super.onResume();
         workout.initparameters();
         workout.setThread(true);
+        Log.i("-> FCT <-", "onResume");
     }
 
     @Override
     public void onStart(){
         super.onStart();
+    }
+
+    @Override
+    public void onStop(){
+        super.onStop();
+        Log.i("-> FCT <-", "onStop");
+    }
+
+    @Override
+    public void onRestart(){
+        super.onRestart();
     }
 
     @Override
